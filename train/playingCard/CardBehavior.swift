@@ -10,6 +10,8 @@ import UIKit
 
 class CardBehavior: UIDynamicBehavior {
     
+    private let x = 5
+    
     private lazy var collisionBehavior: UICollisionBehavior = {
         let behavior = UICollisionBehavior()
         behavior.translatesReferenceBoundsIntoBoundary = true
