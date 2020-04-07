@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075919F0243B5603007CF443 /* ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075919EF243B5603007CF443 /* ConcentrationThemeChooserViewController.swift */; };
+		075919F2243B8E83007CF443 /* PlayingCardsAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075919F1243B8E83007CF443 /* PlayingCardsAnimationViewController.swift */; };
+		0760F0E524348ADA0026DA43 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760F0E424348ADA0026DA43 /* Concentration.swift */; };
+		0760F0E724348AE80026DA43 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760F0E624348AE80026DA43 /* Card.swift */; };
+		076D1B03243C94E2009EDC8F /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B02243C94E2009EDC8F /* CardBehavior.swift */; };
+		077CD0B02439CE2400DAA5EC /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077CD0AF2439CE2400DAA5EC /* PlayingCardView.swift */; };
 		07C309C8242EA86C0052B5C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C309C7242EA86C0052B5C8 /* AppDelegate.swift */; };
-		07C309CA242EA86C0052B5C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C309C9242EA86C0052B5C8 /* ViewController.swift */; };
+		07C309CA242EA86C0052B5C8 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C309C9242EA86C0052B5C8 /* ConcentrationViewController.swift */; };
 		07C309CD242EA86C0052B5C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C309CB242EA86C0052B5C8 /* Main.storyboard */; };
 		07C309CF242EA86D0052B5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C309CE242EA86D0052B5C8 /* Assets.xcassets */; };
 		07C309D2242EA86D0052B5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C309D0242EA86D0052B5C8 /* LaunchScreen.storyboard */; };
 		07C309DD242EA86E0052B5C8 /* trainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C309DC242EA86E0052B5C8 /* trainTests.swift */; };
 		07C309E8242EA86E0052B5C8 /* trainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C309E7242EA86E0052B5C8 /* trainUITests.swift */; };
+		07CF96882436674F00586A20 /* PlayingCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF96872436674F00586A20 /* PlayingCardViewController.swift */; };
+		07CF968A243668E800586A20 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF9689243668E800586A20 /* PlayingCard.swift */; };
+		07CF968C24366DBC00586A20 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF968B24366DBC00586A20 /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		075919EF243B5603007CF443 /* ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
+		075919F1243B8E83007CF443 /* PlayingCardsAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardsAnimationViewController.swift; sourceTree = "<group>"; };
+		0760F0E424348ADA0026DA43 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		0760F0E624348AE80026DA43 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		076D1B02243C94E2009EDC8F /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
+		077CD0AF2439CE2400DAA5EC /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		07C309C4242EA86C0052B5C8 /* train.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = train.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C309C7242EA86C0052B5C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07C309C9242EA86C0052B5C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07C309C9242EA86C0052B5C8 /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 		07C309CC242EA86C0052B5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07C309CE242EA86D0052B5C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C309D1242EA86D0052B5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		07C309E3242EA86E0052B5C8 /* trainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C309E7242EA86E0052B5C8 /* trainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainUITests.swift; sourceTree = "<group>"; };
 		07C309E9242EA86E0052B5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CF96872436674F00586A20 /* PlayingCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardViewController.swift; sourceTree = "<group>"; };
+		07CF9689243668E800586A20 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		07CF968B24366DBC00586A20 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +115,10 @@
 		07C309C6242EA86C0052B5C8 /* train */ = {
 			isa = PBXGroup;
 			children = (
-				07C309C7242EA86C0052B5C8 /* AppDelegate.swift */,
-				07C309C9242EA86C0052B5C8 /* ViewController.swift */,
+				07CF96862436671900586A20 /* playingCard */,
+				07CF9684243666BF00586A20 /* concentrationGame */,
 				07C309CB242EA86C0052B5C8 /* Main.storyboard */,
-				07C309CE242EA86D0052B5C8 /* Assets.xcassets */,
-				07C309D0242EA86D0052B5C8 /* LaunchScreen.storyboard */,
+				07D754322432590700A82610 /* supportingFiles */,
 				07C309D3242EA86D0052B5C8 /* Info.plist */,
 			);
 			path = train;
@@ -123,6 +140,40 @@
 				07C309E9242EA86E0052B5C8 /* Info.plist */,
 			);
 			path = trainUITests;
+			sourceTree = "<group>";
+		};
+		07CF9684243666BF00586A20 /* concentrationGame */ = {
+			isa = PBXGroup;
+			children = (
+				07C309C9242EA86C0052B5C8 /* ConcentrationViewController.swift */,
+				0760F0E624348AE80026DA43 /* Card.swift */,
+				0760F0E424348ADA0026DA43 /* Concentration.swift */,
+				075919EF243B5603007CF443 /* ConcentrationThemeChooserViewController.swift */,
+			);
+			path = concentrationGame;
+			sourceTree = "<group>";
+		};
+		07CF96862436671900586A20 /* playingCard */ = {
+			isa = PBXGroup;
+			children = (
+				076D1B02243C94E2009EDC8F /* CardBehavior.swift */,
+				07CF96872436674F00586A20 /* PlayingCardViewController.swift */,
+				07CF9689243668E800586A20 /* PlayingCard.swift */,
+				07CF968B24366DBC00586A20 /* PlayingCardDeck.swift */,
+				077CD0AF2439CE2400DAA5EC /* PlayingCardView.swift */,
+				075919F1243B8E83007CF443 /* PlayingCardsAnimationViewController.swift */,
+			);
+			path = playingCard;
+			sourceTree = "<group>";
+		};
+		07D754322432590700A82610 /* supportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				07C309CE242EA86D0052B5C8 /* Assets.xcassets */,
+				07C309C7242EA86C0052B5C8 /* AppDelegate.swift */,
+				07C309D0242EA86D0052B5C8 /* LaunchScreen.storyboard */,
+			);
+			path = supportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C309CA242EA86C0052B5C8 /* ViewController.swift in Sources */,
+				075919F2243B8E83007CF443 /* PlayingCardsAnimationViewController.swift in Sources */,
+				07C309CA242EA86C0052B5C8 /* ConcentrationViewController.swift in Sources */,
+				077CD0B02439CE2400DAA5EC /* PlayingCardView.swift in Sources */,
+				07CF96882436674F00586A20 /* PlayingCardViewController.swift in Sources */,
 				07C309C8242EA86C0052B5C8 /* AppDelegate.swift in Sources */,
+				075919F0243B5603007CF443 /* ConcentrationThemeChooserViewController.swift in Sources */,
+				0760F0E524348ADA0026DA43 /* Concentration.swift in Sources */,
+				07CF968A243668E800586A20 /* PlayingCard.swift in Sources */,
+				0760F0E724348AE80026DA43 /* Card.swift in Sources */,
+				07CF968C24366DBC00586A20 /* PlayingCardDeck.swift in Sources */,
+				076D1B03243C94E2009EDC8F /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +429,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -422,6 +483,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -432,6 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = train/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = train/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
