@@ -12,6 +12,9 @@
 		0760F0E524348ADA0026DA43 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760F0E424348ADA0026DA43 /* Concentration.swift */; };
 		0760F0E724348AE80026DA43 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760F0E624348AE80026DA43 /* Card.swift */; };
 		076D1B03243C94E2009EDC8F /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B02243C94E2009EDC8F /* CardBehavior.swift */; };
+		076D1B06243CDF98009EDC8F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B05243CDF98009EDC8F /* ImageViewController.swift */; };
+		076D1B0B243CE3A9009EDC8F /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 076D1B09243CE3A6009EDC8F /* oval.jpg */; };
+		076D1B0D243CE3C3009EDC8F /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B0C243CE3C3009EDC8F /* DemoURLs.swift */; };
 		077CD0B02439CE2400DAA5EC /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077CD0AF2439CE2400DAA5EC /* PlayingCardView.swift */; };
 		07C309C8242EA86C0052B5C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C309C7242EA86C0052B5C8 /* AppDelegate.swift */; };
 		07C309CA242EA86C0052B5C8 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C309C9242EA86C0052B5C8 /* ConcentrationViewController.swift */; };
@@ -48,6 +51,9 @@
 		0760F0E424348ADA0026DA43 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		0760F0E624348AE80026DA43 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		076D1B02243C94E2009EDC8F /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
+		076D1B05243CDF98009EDC8F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		076D1B09243CE3A6009EDC8F /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
+		076D1B0C243CE3C3009EDC8F /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 		077CD0AF2439CE2400DAA5EC /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		07C309C4242EA86C0052B5C8 /* train.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = train.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C309C7242EA86C0052B5C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076D1B04243CDF67009EDC8F /* Casini */ = {
+			isa = PBXGroup;
+			children = (
+				076D1B09243CE3A6009EDC8F /* oval.jpg */,
+				076D1B05243CDF98009EDC8F /* ImageViewController.swift */,
+				076D1B0C243CE3C3009EDC8F /* DemoURLs.swift */,
+			);
+			path = Casini;
+			sourceTree = "<group>";
+		};
 		07C309BB242EA86C0052B5C8 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +131,7 @@
 		07C309C6242EA86C0052B5C8 /* train */ = {
 			isa = PBXGroup;
 			children = (
+				076D1B04243CDF67009EDC8F /* Casini */,
 				07CF96862436671900586A20 /* playingCard */,
 				07CF9684243666BF00586A20 /* concentrationGame */,
 				07C309CB242EA86C0052B5C8 /* Main.storyboard */,
@@ -281,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C309D2242EA86D0052B5C8 /* LaunchScreen.storyboard in Resources */,
+				076D1B0B243CE3A9009EDC8F /* oval.jpg in Resources */,
 				07C309CF242EA86D0052B5C8 /* Assets.xcassets in Resources */,
 				07C309CD242EA86C0052B5C8 /* Main.storyboard in Resources */,
 			);
@@ -317,6 +335,8 @@
 				07CF968A243668E800586A20 /* PlayingCard.swift in Sources */,
 				0760F0E724348AE80026DA43 /* Card.swift in Sources */,
 				07CF968C24366DBC00586A20 /* PlayingCardDeck.swift in Sources */,
+				076D1B06243CDF98009EDC8F /* ImageViewController.swift in Sources */,
+				076D1B0D243CE3C3009EDC8F /* DemoURLs.swift in Sources */,
 				076D1B03243C94E2009EDC8F /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
